@@ -123,10 +123,10 @@
 //                |      |       |       |      |      |  |      |      |      |  BKSP |  DEL |
             bindings = <
 &kp BKSP   &kp N1       &kp N2    &kp N3       &kp N4       &kp N5                        &kp N6    &kp N7    &kp N8   &kp N9    &kp N0  &kp EQUAL
-&kp DEL    &kp INS      &kp PSCRN &kp UP       &trans       &trans                        &kp PG_UP &trans    &kp UP   &trans    &kp N0  &trans
-&trans     &kp LALT     &kp LEFT  &kp DOWN     &kp RIGHT    &kp CLCK                      &kp PG_DN &kp LEFT  &kp DOWN &kp RIGHT &kp DEL &kp BSPC
-&trans     &kp K_UNDO   &kp K_CUT &kp K_COPY   &kp K_PASTE  &trans        &trans          &trans    &trans    &trans   &trans    &trans  &trans
-                        &trans    &trans       &trans       &trans        &trans  &trans  &trans    &trans    &trans   &trans
+&kp DEL    &kp INS      &kp PSCRN &kp UP       &trans       &trans                        &kp PG_UP &kp N7    &kp N8   &kp N9    &kp N0  &trans
+&trans     &kp LALT     &kp LEFT  &kp DOWN     &kp RIGHT    &kp CLCK                      &kp PG_DN &kp N4    &kp N5   &kp N6    &kp DEL &kp BSPC
+&trans     &kp K_UNDO   &kp K_CUT &kp K_COPY   &kp K_PASTE  &trans        &trans          &trans    &kp N1    &kp N2   &kp N3    &trans  &trans
+                        &trans    &trans       &trans       &trans        &trans  &trans  &trans    &kp N0    &trans   &trans
                                                                      &kp K_CMENU &kp C_FF &kp PG_UP &kp C_RW  &kp PG_DN
             >;
 
