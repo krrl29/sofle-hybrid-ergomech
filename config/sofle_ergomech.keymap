@@ -116,17 +116,17 @@
         code_layer {
             label = "code";
 // ------------------------------------------------------------------------------------------------------------
-// | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                | NMLK |      |       |      |       |   =   |
-// |       | INS  | PSCR | GUI   |       |      |                | PGUP |   7  |   8   |   9  |       |       |
-// |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |   4  |   5   |   6  |  DEL  | BKSPC |
-// |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |   1  |   2   |   3  |       |       |
-//                |      |       |       |      |      |  |      |      |      |  BKSP |  DEL |
+// | BTCLR | BT1  | BT2  |  BT3  |  BT4  |  BT5 |                | NMLK |  /  |   *   |  -  |       |   =   |
+// |       | INS  | PSCR | GUI   |       |      |                | PGUP |  7  |   8   |  9  |       |       |
+// |       | ALT  | CTRL | SHIFT |       | CAPS |                | PGDN |  4  |   5   |  6  |  DEL  | BKSPC |
+// |       | UNDO | CUT  | COPY  | PASTE |      |      |  |      |      |  1  |   2   |  3  |       |       |
+//                |      |       |       |      |      |  |      |      |  0  |   .   | BKSP|
             bindings = <
-&kp BKSP   &kp N1       &kp N2    &kp N3       &kp N4       &kp N5                        &kp N6    &kp N7    &kp N8   &kp N9    &kp N0  &kp EQUAL
-&kp DEL    &kp INS      &kp PSCRN &kp UP       &trans       &trans                        &kp PG_UP &kp N7    &kp N8   &kp N9    &kp N0  &trans
+&kp BKSP   &kp N1       &kp N2    &kp N3       &kp N4       &kp N5                        &kp N6    &kp FSLH  &kp KP_MULTIPLY &kp MINUS &kp N0  &kp EQUAL
+&kp DEL    &kp INS      &kp PSCRN &kp UP       &trans       &trans                        &kp PG_UP &kp N7    &kp N8   &kp N9    &kp KP_PLUS &trans
 &trans     &kp LALT     &kp LEFT  &kp DOWN     &kp RIGHT    &kp CLCK                      &kp PG_DN &kp N4    &kp N5   &kp N6    &kp DEL &kp BSPC
 &trans     &kp K_UNDO   &kp K_CUT &kp K_COPY   &kp K_PASTE  &trans        &trans          &trans    &kp N1    &kp N2   &kp N3    &trans  &trans
-                        &trans    &trans       &trans       &trans        &trans  &trans  &trans    &kp N0    &trans   &trans
+                        &trans    &trans       &trans       &trans        &trans  &trans  &trans    &kp N0    &kp DOT  &kp BKSP
                                                                      &kp K_CMENU &kp C_FF &kp PG_UP &kp C_RW  &kp PG_DN
             >;
 
